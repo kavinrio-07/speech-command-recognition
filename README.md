@@ -41,51 +41,60 @@ speech_command_project/
 
 ---
 
+## 🚀 Live Demo (Streamlit App)
+
+🔗 https://speech-command-recognition.streamlit.app
+
+Upload a `.wav` audio file and get the predicted speech command with confidence score.
+
+---
+
 ## ▶️ How to Run the Project
 
-### 1️⃣ Activate Environment
-```bash
+## Activate Environment
+
 conda activate speechcmds
 
 ## Install Dependencies
+
 pip install -r requirements.txt
 
 ## Run the Streamlit App
+
 streamlit run app_streamlit.py
 
 ## Open your browser and go to:
 http://localhost:8501
 
+---
+
 ## 🧪 How to Use the Application
 
-Open the Streamlit app in browser
+- Open the Streamlit app in browser
+- Upload a .wav audio file
+- Model predicts the spoken command
+- Confidence score is displayed
 
-Upload a .wav audio file
-
-Model predicts the spoken command
-
-Confidence score is displayed
+---
 
 ## 🧠 Model Details
 
-Dataset: TensorFlow Speech Commands
+- Dataset: TensorFlow Speech Commands
+- Input: Audio converted to spectrogram
+- Model: CNN based Deep Learning model
+- Output: Command label with confidence
 
-Input: Audio converted to spectrogram
-
-Model: CNN based Deep Learning model
-
-Output: Command label with confidence
+---
 
 ## 🚀 Future Improvements
 
-Real-time microphone input
+- Real-time microphone input
+- More commands support
+- Cloud deployment
+- Accuracy improvements
 
-More commands support
-
-Cloud deployment
-
-Accuracy improvements
+---
 
 ## 👤 Author
 Kavin Raja
-Speech Command Recognition Project
+- Speech Command Recognition Project
