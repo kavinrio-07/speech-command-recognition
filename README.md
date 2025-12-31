@@ -45,7 +45,11 @@ speech_command_project/
 
 🔗 https://speech-command-recognition.streamlit.app
 
-Upload a `.wav` audio file and get the predicted speech command with confidence score.
+---
+
+## 📸 App Screenshot
+
+![Speech Command Recognition App](screenshots/app_demo.png)
 
 ---
 
